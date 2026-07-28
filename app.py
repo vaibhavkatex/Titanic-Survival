@@ -5,7 +5,7 @@ import joblib
 
 # Load trained model files
 model = joblib.load("model.pkl")
-scaler = joblib.load("scalar.pkl")
+scaler = joblib.load("scaler.pkl")
 columns = joblib.load("columns.pkl")
 
 
