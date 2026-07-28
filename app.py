@@ -4,9 +4,9 @@ import joblib
 
 
 # Load trained model files
-model = joblib.load("model.pkl")
-scaler = joblib.load("scaler.pkl")
-columns = joblib.load("columns.pkl")
+model = joblib.load(open("model.pkl", "rb"))
+scaler = joblib.load(open("scaler.pkl", "rb"))
+columns = joblib.load(open("columns.pkl", "rb"))
 
 
 # Streamlit Page Configuration
