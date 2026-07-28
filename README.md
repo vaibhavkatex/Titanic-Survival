@@ -7,7 +7,7 @@ A Machine Learning project that predicts whether a passenger survived the Titani
 Try the deployed Streamlit application:
 
 🔗 **Streamlit App:**  
-https://your-streamlit-app-link.streamlit.app/
+https://titanic-survivals.streamlit.app/
 
 ---
 
