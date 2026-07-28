@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 
 
 # Load trained model files
-model = pickle.load(open("model.pkl", "rb"))
-scaler = pickle.load(open("scalar.pkl", "rb"))
-columns = pickle.load(open("columns.pkl", "rb"))
+model = joblib.load("model.pkl")
+scaler = joblib.load("scalar.pkl")
+columns = joblib.load("columns.pkl")
 
 
 # Streamlit Page Configuration
